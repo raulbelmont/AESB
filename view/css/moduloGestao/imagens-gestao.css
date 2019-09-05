@@ -1,0 +1,105 @@
+a{
+    text-decoration: none !important;
+}
+.imagem{
+    border: 5px solid #adb5bd;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px #adb5bd;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.imagem:hover{
+    opacity: 1;
+    transform: scale(1.05,1.05);
+    transition: 1s;
+}
+
+.titulo-imagem{
+    color: #000;
+}
+.legenda-imagem{
+    color: #000;
+}
+
+.botao-inserir{
+    background-color: #006AA6;
+    border-radius: 0;
+    transition: 0.5s;
+}
+.botao-inserir:hover{
+    background-color: #fff;
+    color: #006AA6 !important;
+    border: 1px solid #006AA6;
+    transition: 0.5s;
+}
+.botao-editar{
+    background-color: #F6BB4E;
+    border-radius: 0;
+    transition: 0.5s;
+}
+.botao-editar:hover{
+    background-color: #fff;
+    color: #F6BB4E !important;
+    border: 1px solid #F6BB4E;
+    transition: 0.5s;
+}
+.botao-excluir{
+    background-color: #DD4B39;
+    border-radius: 0;
+    transition: 0.5s;
+}
+.botao-excluir:hover{
+    background-color: #fff;
+    color: #DD4B39 !important;
+    border: 1px solid #DD4B39;
+    transition: 0.5s;
+}
+.input-label{
+    background: #006AA6;
+    color: #fff;
+    padding: 7px;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px #000;
+    border: none;
+    border-radius: 0;
+    transition: 0.5s;
+}
+.input-label:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 1px 2px #000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.reset-input{
+    color: #ff0000 !important;
+    cursor: pointer;
+}
+.error{
+    color: #ff0000;
+}
+.mensagem-de-erro{
+    border: 1px solid #ff0000;
+    background-color: #fff;
+}
+.mensagem-de-sucesso{
+    border: 1px solid #28A745;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+
+    .anuncio-principal{
+        border-right: none !important;
+    }
+
+}
+
+/*Estilização da Modal*/
+@media (min-width: 1200px) {
+    .modal-xl {
+        max-width: 1100px !important;
+    }
+}

@@ -1,0 +1,285 @@
+﻿.rodape-social{
+    background-color: #000;
+    color: #fff;
+}
+
+.logo-rodape-p{
+    max-width: 94px;
+    max-height: 94px;
+}
+.botao-socio-rodape{
+    background-color: #DB1F1A;
+    color: #fff;
+    box-shadow: 1px 1px 2px #000;
+    border-radius: 0;
+    transition: 0.5s;
+    border-radius: 0 !important;
+}
+.botao-contato-rodape{
+    background-color: #006AA6;
+    color: #fff;
+    box-shadow: 1px 1px 2px #000;
+    border-radius: 0;
+    transition: 0.5s;
+    border-radius: 0 !important;
+}
+
+/*definindo estilo dos botoes quando o mouse estiver por cima deles*/
+.botao-socio-rodape:hover{
+    background-color: #fff;
+    color: #DB1F1A;
+    box-shadow: 1px 1px 2px #DB1F1A;
+    transition: 0.5s;
+}
+
+.botao-contato-rodape:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 1px 2px #000;
+    transition: 0.5s;
+}
+
+
+/*CARROSEL DE PATROCINADORES*/
+
+.titulo-patrocinadores{
+    background-color: #000;
+    box-shadow: 1px 1px 2px #000;
+    font-size: 1.4em;
+}
+.titulo-patrocinadores span{
+    color: #fff;
+    transition: 0.5s;
+
+}
+/*.titulo-patrocinadores span:hover{*/
+/*color: #DB1F1A;*/
+/*text-shadow: 1px 1px 2px #fff;*/
+/*transition: 0.5s;*/
+/*}*/
+
+.patrocinador{
+    transition: 0.5s;
+}
+
+.patrocinador:hover{
+    transform: scale(1.03,1.03);
+    transition: 0.5s;
+}
+
+.row-patrocinadores{
+    background-color:#fff;
+    box-shadow: 1px 1px 2px #000;
+}
+
+.logo-patrocinador{
+    width: 175px;
+    height: 105px;
+
+}
+
+.nome-patrocinador{
+    color: #000;
+    font-size: 1.2em;
+}
+
+.controlador-carrosel{
+    color: #000;
+    transition: 0.5s;
+}
+
+
+.controlador-carrosel:hover{
+    color: #000;
+    transform: scale(1.08,1.08);
+    transition: 0.5s;
+}
+/*FIM DO CARROSEL*/
+
+/*ESTILO DO RODAPÉ FINAL*/
+
+.rodape-final{
+    color: #fff;
+    background-color: #006AA6;
+    box-shadow: -1px -1px 2px #000;
+}
+.botoes-medias-sociais a{
+    color: #fff;
+}
+
+
+.titulo-social span{
+    color: #DB1F1A;
+}
+
+.media-sociais li a {
+    display:inline-block;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 40px;
+    height: 40px;
+    font-size:20px;
+}
+
+.media-sociais li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+.media-sociais li a:hover{
+    color: #fff;
+}
+.media-sociais li a:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.media-sociais i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.botao-facebook{
+    background-color:#3B5998;
+}
+.botao-instagram{
+    background-color: #2E5E86;
+}
+.botao-twitter{
+    background-color: #55ACEE;
+}
+.botao-youtube{
+    background-color: #ED302F;
+}
+.botao-gplus{
+    background-color: #DD4B39;
+}
+
+
+
+/*APOIOADORES*/
+.apoiadores{
+    background-color: #000;
+
+}
+.titulo-apoiadores{
+    color: #fff;
+    font-size: 1.4em;
+}
+.lista-de-apoadores li{
+    width: 72px;
+    height: 32px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.lista-de-apoadores .li{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+.lista-de-apoadores li:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.lista-de-apoadores li:hover img{
+    box-shadow: 3px 3px 2px #000;
+    transition: 0.5s;
+}
+.lista-de-apoadores li:hover .nome-apoiador{
+    text-shadow: 2px 2px 2px #000;
+    transition: 0.5s;
+}
+
+.lista-de-apoadores img{
+    width: 120px;
+    height: 90px;
+
+
+
+}
+.nome-apoiador{
+    color: #fff;
+}
+.smoothscroll-top {
+    position:fixed;
+    opacity:0;
+    visibility:hidden;
+    overflow:hidden;
+    text-align:center;
+    z-index:99;
+    background-color:#DB1F1A;
+    color:#fff;
+    width:47px;
+    height:44px;
+    line-height:44px;
+    right:25px;
+    bottom:-25px;
+    padding-top:2px;
+    border-radius:5px;
+    transition:all .5s ease-in-out;
+    transition-delay:.2s;
+}
+
+.smoothscroll-top:hover {
+    background-color:#000;
+    color:#fff;
+    transition:all .2s ease-in-out;
+
+}
+
+.smoothscroll-top.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity:1;
+    bottom:25px;
+}
+
+.smoothscroll-top i.fa {
+    line-height:inherit;
+}
+
+.lista-link-historia a{
+    color: #fff;
+    font-weight: bold;
+}
+.lista-link-historia a:hover{
+    color: #DB1F1A;
+}
+.inpactus{
+    position: absolute;
+    width: 116px;
+    height: 74px;
+    bottom: 0;
+    right: 80px;
+}
+
+@media (max-width: 576px){
+
+    .lista-de-apoadores li{
+        opacity: 1 !important;
+    }
+    .lista-de-apoadores img{
+        width: 90px;
+        height: 60px;
+    }
+    .logo-patrocinador{
+        width: 120px;
+        height: 50px;
+
+
+    }
+
+}
+

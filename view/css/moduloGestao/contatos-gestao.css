@@ -1,0 +1,43 @@
+.novos-contatos{
+    width: 100% !important;
+    height: 400px !important;
+    overflow-y: auto !important;
+}
+.contatos-visualizados{
+    width: 100% !important;
+    height: 400px !important;
+    overflow-y: auto !important;
+}
+.botao-inserir{
+    background-color: #006AA6;
+    border-radius: 0;
+    transition: 0.5s;
+}
+.botao-inserir:hover{
+    background-color: #fff;
+    color: #006AA6 !important;
+    border: 1px solid #006AA6;
+    transition: 0.5s;
+}
+.botao-excluir{
+    background-color: #DD4B39;
+    border-radius: 0;
+    transition: 0.5s;
+}
+.botao-excluir:hover{
+    background-color: #fff;
+    color: #DD4B39 !important;
+    border: 1px solid #DD4B39;
+    transition: 0.5s;
+}
+.dados{
+    font-size: 1.4em;
+}
+
+@media (max-width: 576px){
+
+    .dados{
+        font-size: 1em;
+    }
+
+}

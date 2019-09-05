@@ -1,0 +1,32 @@
+main{
+    margin-top: 80px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+h3{
+    font-weight: bold;
+}
+.painel-padrao{
+    margin: 5px;
+    background-color: #DD4B39;
+    width: auto;
+    height: 150px;
+    transition: 0.5s;
+}
+.painel-azul{
+    margin: 5px;
+    background-color: #006AA6;
+    width: auto;
+    height: 150px;
+    transition: 0.5s;
+}
+.painel-azul:hover,.painel-padrao:hover{
+    transform: scale(1.05,1.05);
+    transition: 0.5s;
+}
+.club-imagem{
+    max-width: 60px !important;
+    max-height: 60px !important;
+}

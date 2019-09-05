@@ -1,0 +1,375 @@
+﻿/*Cor vermelha padrão do vlube*/
+.vermelho-padrao{
+    color: #DB1F1A;
+}
+/*Cor azul padrão do clube*/
+.azul-padrao{
+    color: #006AA6;
+}
+.icone-carrosel-principal{
+    color: #fff;
+
+}
+/*Definindo cor das letras na descrição da imagem do carrosel*/
+.titulo-descricao-carrosel{
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+
+}
+/*Definindo a cor do span na descrição da imagem do carrosel*/
+.titulo-descricao-carrosel span{
+    color: #DB1F1A;
+
+}
+
+/*Defininfo cor e tamanho da fonte no subtítulo da descrição das imagens do carrosel*/
+.descricao-carrousel{
+    color: #fff;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 1px #000;
+}
+.img-carrosel-principal{
+    width: 100% !important;
+    max-height: 600px !important;
+    object-fit: cover;
+    object-position: top center;
+
+}
+.img-carrosel-secundario{
+    width: 100% !important;
+    max-height: 600px !important;
+}
+
+/*Definindo tamanho dos números no placar*/
+.placar p{
+    font-size: 1.5em;
+    color: #fff;
+
+}
+.placar-logo img{
+    max-width: 68px !important;
+    max-height: 68px !important;
+}
+
+/**/
+.resultados{
+    background-color: #2D2D2D;
+    color: #fff;
+}
+.titulo-painel-resultados{
+    color: #006AA6;
+    text-shadow: 1px 1px 1px #000;
+}
+/*Definindo cor da fonte e cor de fundo dos botões*/
+.botao-socio{
+    background-color: #DB1F1A;
+    color: #fff;
+    box-shadow: 1px 1px 2px #000;
+    border-radius: 0;
+    transition: 0.5s;
+    border-radius: 0 !important;
+}
+.botao-resultados{
+    background-color: #006AA6;
+    color: #fff;
+    box-shadow: 1px 1px 2px #000;
+    border-radius: 0;
+    transition: 0.5s;
+    border-radius: 0 !important;
+}
+
+/*definindo estilo dos botoes quando o mouse estiver por cima deles*/
+.botao-socio:hover{
+    background-color: #fff;
+    color: #DB1F1A;
+    box-shadow: 1px 1px 2px #DB1F1A;
+    transition: 0.5s;
+}
+
+.botao-resultados:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 1px 2px #000;
+    transition: 0.5s;
+}
+.jogos-competicao{
+    background-color: #000;
+    width: auto;
+    max-height: 620px;
+    overflow-y: scroll;
+}
+.img-arte-socio{
+    max-height: 500px !important;
+}
+.btn-socio{
+    background-image: url("../../img/fundo-btn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Definindo cor da fonte e cor de fundo dos botões*/
+.botao-socio-2{
+    background-color: #DB1F1A;
+    color: #fff;
+    box-shadow: 1px 1px 2px #000;
+    border-radius: 0;
+    transition: 0.5s;
+    border-radius: 0 !important;
+}
+
+/*definindo estilo dos botoes quando o mouse estiver por cima deles*/
+.botao-socio-2:hover{
+    background-color: #fff;
+    color: #DB1F1A;
+    box-shadow: 1px 1px 2px #DB1F1A;
+    transition: 0.5s;
+}
+.jogos-competicao .jogo{
+    background-color: #2D2D2D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+.jogos-competicao .jogo:hover{
+    transform: scale(0.98,0.98);
+    box-shadow: 1px 1px 3px #fff;
+    transition: 0.5s;
+
+}
+.placar p{
+    font-size: 1.5em;
+    color: #fff;
+
+}
+.placar-logo img{
+    max-width: 68px !important;
+    max-height: 68px !important;
+}
+
+.noticias{
+ box-shadow: 1px 1px 1px #000;
+}
+.chamada-p-jogo{
+    background-color: #2D2D2D;
+}
+.titulo-painel-noticias{
+    background-color: #DD4B39;
+}
+.titulo-painel-noticias a{
+    color: #fff;
+    transition: 0.3s;
+}
+.titulo-painel-noticias a:hover{
+    color: #fff;
+    transition: 0.3s;
+}
+.card-noticia{
+    box-shadow: 1px 1px 1px #adb5bd;
+    opacity: 0.8;
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px !important;
+}
+.card-noticia:hover{
+    opacity: 1;
+    transform: scale(1.03,1.03);
+    transition: 0.5s;
+
+}
+.horario-noticia {
+    color: #fff;
+    font-weight: bold;
+}
+.horario-noticia span{
+    background-color: #006AA6;
+}
+.titulo-noticia{
+    background-color: #006AA6;
+    font-size: 1em;
+}
+.descricao-noticia{
+    bottom: 0%;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 0.9em;
+
+}
+.rodape-noticia{
+    background-color: #DD4B39;
+    color: #fff;
+    transition: 0.5s;
+}
+.rodape-noticia:hover{
+    background-color: #fff;
+    color: #DD4B39;
+    border: 2px solid #DD4B39;
+    transition: 0.5s;
+}
+
+
+
+.fb-page{
+    box-shadow: 1px 1px 2px #000;
+}
+
+.icone-noticia{
+    opacity: 0.7;
+    color: #fff;
+    background-color: #405996;
+    width: 40px;
+    right: 0 !important;
+    bottom: 0 !important;
+    transition: 0.3s;
+}
+
+.icone-noticia:hover{
+    opacity: 1;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.card-subtitle a{
+    color: #6c757d;
+}
+
+
+/*Configuraçãod de estilo para a sesão de anuncios*/
+#anuncio{
+    width: 100% !important;
+    height: 100px;
+    object-fit: contain;
+    transition: 0.5s;
+}
+#anuncio:hover{
+    box-shadow: 2px 2px 4px #DB1F1A;
+    transform: scale(0.98,0.98);
+    transition: 0.5s;
+}
+
+/*Configurações do carrosel de vídeos*/
+.video{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.video:hover{
+    opacity: 1;
+    transform: scale(1.015,1.015);
+    transition: 0.5s;
+}
+.titulo-video{
+    color: #DB1F1A;
+    text-shadow: 2px 2px 1px #000;
+}
+.descricao-video{
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+}
+
+.botao-excluir{
+    background-color: #DD4B39;
+    border-radius: 0;
+    transition: 0.5s;
+}
+.botao-excluir:hover{
+    background-color: #fff;
+    color: #DD4B39 !important;
+    border: 1px solid #DD4B39;
+    transition: 0.5s;
+}
+
+
+/*Configurações do carrosel de elenco*/
+
+.elenco{
+    background-image: url(../../img/fundo-elenco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tab-content .controlador-carrosel{
+    color: #fff;
+}
+.titulo-elenco a{
+    color: #fff;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px #000;
+    transition: 0.5s;
+}
+.titulo-elenco a:hover{
+    color: #006aa6;
+    text-shadow: 1px 1px 1px #000;
+    transition: 0.5s;
+}
+
+.navegacao-elenco a{
+    background-color: #fff;
+    color: #006AA6;
+    border: 1px solid #006aa6 !important;
+    border-bottom: 0 !important;
+    margin:2px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.navegacao-elenco a:hover{
+    color: #fff;
+    background-color: #006aa6;
+    border: 1px solid #fff !important;
+    transition: 0.5s;
+}
+.img-perfil-jogador-link{
+    width: 180px !important;
+    height: 290px !important;
+    margin: 30px !important;
+
+}
+.img-perfil-jogador{
+    width: 180px !important;
+    height: 247px!important;
+    transition: 0.5s;
+    border:none !important;
+}
+.img-perfil-jogador:hover{
+    transform: scale(0.98,0.98);
+    transition: 0.5s;
+}
+
+
+.icone-carrosel{
+    color: #DB1F1A;
+}
+.descricao-elencado{
+    color: #fff !important;
+    text-align: center !important;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
+}
+.descricao-elencado p{
+    font-size: 0.8em;
+
+}
+.anuncio-jogo{
+    width: 428px;
+    height: 605px;
+}
+
+@media (max-width: 992px){
+    .elenco{
+        background-image: url(../../img/fundo-elenco-sm.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 576px){
+
+    .img-carrosel-principal{
+        width: 100%;
+        height: auto !important;
+    }
+
+    .video{
+        opacity: 1;
+    }
+
+}
+
+

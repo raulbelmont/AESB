@@ -1,0 +1,39 @@
+body{
+    background: #000;
+}
+a:hover{
+    text-decoration: none;
+}
+.cabecalho{
+    color: #006AA6;
+    transition: 0.3s;
+}
+.cabecalho:hover{
+    color: #DB1F1A;
+    transition: 0.3s;
+}
+.formulario-login {
+    border: 1px solid #000;
+    padding: 5%;
+    background: #EDEDED;
+}
+.botao-login{
+    background: #006AA6;
+    color: white;
+    transition: 0.4s;
+}
+.botao-login:hover{
+    background: #fff;
+    color: #DB1F1A;
+    transition: 0.4s;
+    border: 1px solid #000;
+
+}
+.mensagem-de-erro{
+    border: 1px solid #ff0000;
+    background-color: #fff;
+}
+.mensagem-de-sucesso{
+    border: 1px solid #28A745;
+    background-color: #fff;
+}

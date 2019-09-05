@@ -1,0 +1,25 @@
+.navegacao-elenco a{
+    margin: 2px;
+    color: #fff;
+    background-color: #006AA6;
+    transition: 0.5s;
+    border-radius: 0 !important;
+}
+.navegacao-elenco a:hover{
+    background-color: #DB1F1A;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.tab-content p{
+    text-indent: 15px;
+}
+
+
+.tab-pane img{
+    box-shadow: 2px 2px 2px #000;
+}
+
+.nav-link .active{
+    background-color: #fff !important;
+}

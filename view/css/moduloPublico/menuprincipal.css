@@ -1,0 +1,118 @@
+﻿body{
+    margin-top: 100px !important;
+}
+/*Definindo cor de fundo para o menu principal*/
+.menu-principal{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.logo-menu-p{
+    max-width: 94px !important;
+    max-height: 94px !important;
+}
+
+.dropdown-menu{
+    background-color: inherit !important;
+}
+
+.menu-principal .descricao-logo-menu a{
+    color: #fff !important;
+    font-size: 1.5em;
+    transition: 1s;
+}
+
+.menu-principal .descricao-logo-menu a:hover{
+    background-color: inherit;
+    transition: 1s;
+    color: #DB1F1A !important;
+}
+
+
+/*Classe que define fundo na cor #006aa6 (Padrão do logo da aesb)*/
+.fundo-azul{
+    background-color: #006AA6 !important;
+}
+
+/*Classe que define fundo na cor #db1f1a (Padrão do logo da aesb)*/
+.fundo-vermelho{
+    background-color: #DB1F1A;
+}
+
+/*Definindo cor e tamanho para as letras dos links do menu*/
+.menu-principal ul li a{
+    color: #fff !important;
+    font-size: 1em;
+
+}
+
+/*Definindo cor preta com fundo vermelho e regulando
+a velocidade da transição de cores para os links do menu
+ que tiverem com o cursor do mouse sobre eles*/
+.menu-principal ul li a:hover{
+    background-color: inherit;
+    color: #DB1F1A !important;
+    transition: 0.5s;
+}
+
+
+
+/*Tirando o sublinhado de todos os links*/
+a{
+    text-decoration: none !important;
+}
+
+/*Tirando a borda e o seu raio do botão toggle*/
+.menu-toggler{
+    border: none !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+
+
+
+.titulo-menu-sm{
+ display: none;
+}
+.titulo-menu-lg{
+    font-size: 0.9em !important;
+}
+@media (max-width: 992px){
+    .titulo-menu-sm{
+        display: inherit;
+    }
+    .titulo-menu-lg{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+
+    .titulo-menu-sm{
+        display: inherit;
+    }
+    .titulo-menu-lg{
+        display: none;
+    }
+}
+@media (max-width: 576px){
+	
+    body{
+	margin-top:68px !important;
+    }
+
+    .logo-menu-principal img{
+        display: none !important;
+    }
+
+    .titulo-menu-sm{
+        display: inherit;
+    }
+    .titulo-menu-lg{
+        display: none;
+    }
+
+}
+
+
+

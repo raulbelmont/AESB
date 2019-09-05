@@ -1,0 +1,108 @@
+#menu-principal{
+    background-color: #006AA6 !important;
+    max-height: 550px;
+    overflow-y: auto;
+}
+
+@media (max-width: 992px){
+    #menu-principal{
+        max-height: 500px;
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 768px){
+    #menu-principal{
+        max-height: 350px;
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 576px){
+    #menu-principal{
+        max-height: 300px;
+        overflow-y: auto;
+    }
+}
+
+
+#container{
+    z-index: 1;
+    top: 0;
+}
+.cont{
+    overflow: auto;
+}
+.imagem-cabecalho{
+    max-width: 200px;
+    max-height: 200px;
+}
+.menu-toggler{
+    background-color: #006AA6;
+    border-radius: 0;
+}
+.menu-toggler span{
+    color: #fff;
+}
+.menu-toggler-open{
+    background-color: #fff;
+    border-radius: 0;
+}
+.menu-toggler-open span{
+    color: #000;
+}
+
+/**/
+.botao-de-conta{
+    background-color: #006AA6;
+    border-radius: 0;
+    color: #fff;
+}
+.botao-de-conta-aberto{
+    background-color: #fff;
+    color: #000;
+}
+.perfil:hover{
+    box-shadow: 1px 1px 2px #006AA6;
+    transition: 0.5s;
+}
+.sair:hover{
+    box-shadow: 1px 1px 2px #DC3545;
+    transition: 0.5s;
+}
+
+.botoes-usuario a:hover{
+    text-decoration: none;
+}
+.cor-menu{
+    background-color: rgba(0,106,166,1);
+}
+
+#menu-principal ul li{
+    padding: 5px;
+    transition: 0.2s;
+}
+#menu-principal ul li:hover{
+    background-color: #fff;
+    transition: 0.2s;
+}
+#menu-principal ul li a{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+#menu-principal ul li a:hover{
+    color: #000;
+    transition: 0.2s;
+}
+.titulo-do-menu a{
+    color: #fff;
+    transition: 0.5s;
+}
+.titulo-do-menu a:hover{
+    text-decoration: none;
+    color: #006AA6;
+    text-shadow: 1px 1px #000;
+    transition: 0.5s;
+}

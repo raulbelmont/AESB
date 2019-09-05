@@ -1,0 +1,93 @@
+body{
+    background-image: url("../../img/fundo4.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Estilização do Carrosel de ElencoModel*/
+.elenco{
+
+}
+.tab-content .controlador-carrosel{
+    color: #fff;
+}
+.titulo-elenco{
+    color: #fff;
+    font-size: 2.4em;
+    text-shadow: 1px 1px 1px #000;
+    transition: 0.5s;
+}
+
+
+.navegacao-elenco a{
+    background-color: #fff;
+    color: #006AA6;
+    border: 1px solid #006aa6 !important;
+    border-bottom: 0 !important;
+    margin:2px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.navegacao-elenco a:hover{
+    color: #fff;
+    background-color: #006aa6;
+    border: 1px solid #fff !important;
+    transition: 0.5s;
+}
+.img-perfil-jogador-link{
+    width: 180px !important;
+    height: 247px !important;
+
+}
+.img-perfil-jogador{
+    width: 180px !important;
+    height: 247px!important;
+    transition: 0.5s;
+}
+.img-perfil-jogador:hover{
+    transform: scale(0.98,0.98);
+    transition: 0.5s;
+}
+
+
+.icone-carrosel{
+    color: #DB1F1A;
+}
+.descricao-elencado{
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    bottom: 0px;
+    text-transform: uppercase;
+}
+.descricao-elencado p{
+    font-size: 0.8em;
+
+}
+#carrosel-goleiro .carousel-item .img-perfil-jogador:hover{
+    cursor: pointer;
+}
+#carrosel-lateral .carousel-item .img-perfil-jogador:hover{
+    cursor: pointer;
+}
+#carrosel-zagueiro .carousel-item .img-perfil-jogador:hover{
+    cursor: pointer;
+}
+#carrosel-volante .carousel-item .img-perfil-jogador:hover{
+    cursor: pointer;
+}
+#carrosel-meio-campo .carousel-item .img-perfil-jogador:hover{
+    cursor: pointer;
+}
+#carrosel-atacante .carousel-item .img-perfil-jogador:hover{
+    cursor: pointer;
+}
+.foto-jogador img{
+    width: 180px !important;
+    height: 247px !important;
+}
+/*Estilização da Modal*/
+@media (min-width: 1200px) {
+    .modal-xl {
+        max-width: 1100px !important;
+    }
+}

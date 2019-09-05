@@ -1,0 +1,118 @@
+/*Configurações do carrosel de vídeos*/
+a{
+    cursor: pointer;
+}
+.video{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.video:hover{
+    opacity: 1;
+    transform: scale(1.015,1.015);
+    transition: 0.5s;
+}
+.titulo-video{
+    color: #DB1F1A;
+    text-shadow: 2px 2px 1px #000;
+}
+.descricao-video{
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+}
+.vid-tab{
+    border-right: 1px solid #fff;
+}
+#aviso-tamanho{
+    border: 1px solid #ff0000;
+    background-color: #fff;
+}
+.status{
+    background-color: #fff;
+    border: 1px solid #006AA6;
+}
+.status-enviado{
+    border: 1px solid #28A745;
+    background-color: #fff;
+}
+.btn-enviar-video{
+    color: #fff !important;
+    background-color: #006AA6;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-enviar-video:hover{
+    color: #000 !important;
+    background-color: #fff;
+    border: 1px solid #006AA6;
+    transition: 0.5s;
+}
+
+.cancelar-envio{
+    cursor: pointer;
+}
+.input-label{
+    background: #006AA6;
+    color: #fff;
+    padding: 7px;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px #000;
+    border: none;
+    border-radius: 0;
+    transition: 0.5s;
+}
+.input-label:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 1px 2px #000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.reset-input{
+    color: #ff0000 !important;
+    cursor: pointer;
+}
+
+.logo-video-torcedor{
+    display: none !important;
+}
+.botao-enviar{
+    background-color: #006AA6;
+    color: #fff;
+    box-shadow: 1px 1px 2px #000;
+    border-radius: 0;
+    transition: 0.5s;
+    border-radius: 0 !important;
+}
+
+.botao-enviar:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 1px 2px #000;
+    transition: 0.5s;
+}
+.btn-mais-videos{
+    background-color: #006AA6;
+    color: #fff !important;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.mais-videos-aesb{
+    border-right: 1px solid #000;
+}
+.btn-mais-videos:hover{
+    background-color: #fff;
+    color: #006AA6 !important;
+    border: 1px solid #006AA6;
+    transition: 0.5s;
+}
+@media (max-width: 768px) {
+    .mais-videos-aesb{
+        border: none !important;
+    }
+}
+
+@media (max-width: 576px){
+    .mais-videos-aesb{
+        border: none !important;
+    }
+}

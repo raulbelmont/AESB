@@ -1,0 +1,6 @@
+[22-Aug-2019 17:11:08 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'codigoCompeticao' cannot be null' in /home1/aesaobor/public_html/model/JogosModel.php:44
+Stack trace:
+#0 /home1/aesaobor/public_html/model/JogosModel.php(44): PDOStatement->execute()
+#1 /home1/aesaobor/public_html/controller/JogosController.php(67): JogosModel->inserirJogo()
+#2 {main}
+  thrown in /home1/aesaobor/public_html/model/JogosModel.php on line 44

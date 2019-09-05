@@ -1,0 +1,34 @@
+.botao-inserir{
+    background-color: #006AA6;
+    border-radius: 0;
+    transition: 0.5s;
+
+}
+.botao-inserir:hover{
+    background-color: #fff;
+    color: #006AA6 !important;
+    border: 1px solid #006AA6;
+    transition: 0.5s;
+}
+.botao-editar{
+    background-color: #F6BB4E;
+    border-radius: 0;
+    transition: 0.5s;
+}
+.botao-editar:hover{
+    background-color: #fff;
+    color: #F6BB4E !important;
+    border: 1px solid #F6BB4E;
+    transition: 0.5s;
+}
+.botao-excluir{
+    background-color: #DD4B39;
+    border-radius: 0;
+    transition: 0.5s;
+}
+.botao-excluir:hover{
+    background-color: #fff;
+    color: #DD4B39 !important;
+    border: 1px solid #DD4B39;
+    transition: 0.5s;
+}

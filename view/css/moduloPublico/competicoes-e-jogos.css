@@ -1,0 +1,52 @@
+option .active{
+    background-color: #fff !important;
+}
+.card-header{
+    background-color: #006AA6 !important;
+    color: #fff;
+}
+.card-text{
+    font-size: 1.3em;
+}
+.regras-competicao{
+    border: 1px solid #000;
+    width: auto;
+    height: 700px;
+    overflow-y: auto;
+}
+.regras-competicao p{
+    text-indent: 15px;
+    text-align: justify;
+}
+.indent{
+    text-indent: 60px !important;
+}
+
+.jogos-competicao{
+
+    width: auto;
+    height: 422px;
+    overflow-y: scroll;
+}
+.placar p{
+    font-size: 1.5em;
+    color: #fff;
+
+}
+.placar-logo img{
+    max-width: 68px !important;
+    max-height: 68px !important;
+}
+
+/**/
+.resultados{
+    background-color: #2D2D2D;
+    color: #fff;
+}
+.titulo-painel-resultados{
+    color: #006AA6;
+    text-shadow: 1px 1px 1px #000;
+}
+.proximo-jogo{
+    background-color: #006AA6;
+}
