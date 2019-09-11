@@ -8,6 +8,6 @@
 
 /*DEFININDO VARIÁVEIS DE ACESSO AO BANCO DE DADOS*/
 define("DBHOST","localhost");
-define("DBNAME","aesaobor_aesb");
-define("DBUSER","aesaobor_raul917");
-define("DBPASS","gremio91756972");
+define("DBNAME","aesb");
+define("DBUSER","root");
+define("DBPASS","");
